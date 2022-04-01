@@ -3,4 +3,4 @@ project(pg_neural)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(pg_neural main.cpp)
+add_executable(pg_neural main.cpp MLP.cpp MLP.h)
